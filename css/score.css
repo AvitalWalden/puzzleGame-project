@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400&display=swap');
+
+.nav {
+    width: 100%;
+    position: top;
+    margin: 0px;
+    border: none;
+    display: block;
+    margin-bottom: 0px;
+}
+
+html {
+    margin: 0;
+}
+
+.userName {
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Quicksand', sans-serif;
+    margin-bottom: 10px;
+    text-shadow: 0 0 5px rgb(153, 217, 234);
+    color: black;
+    padding: 2px;
+    margin-top: 0px;
+}
+
+body {
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+    background-image: url("../images/backgroundSide.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+.nav {
+    width: 100%;
+    position: top;
+    margin: 0px;
+    border: none;
+    display: block;
+    margin-bottom: 0px;
+}
+
+footer {
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 0.2%;
+    font-family: "Assistant", sans-serif;
+    background-color: black;
+    color: white;
+}
+
+footer>a>img {
+    width: 1.5em;
+}
+
+h1 {
+    font-size: 400%;
+    color: linen;
+    text-align: center;
+    padding-top: 6%;
+}
+
+table {
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    table-layout: fixed;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 1);
+    color: black;
+    font-size: 20px;
+}
+
+
+table tr {
+    border: 1px solid #ddd;
+    padding: .35em;
+    font-weight: bold;
+
+}
+
+table thead {
+    font-weight: bold;
+    font-size: 26px;
+    text-shadow: 2px 0 rgb(153, 217, 234);
+}
+
+table th,
+table td {
+    padding: .625em;
+    text-align: center;
+
+}
+
+table th {
+    letter-spacing: .1em;
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        margin-bottom: 15px;
+    }
+
+    table {
+        border: 0;
+    }
+
+    table thead {
+        border: none;
+        height: 1px;
+        margin: -1px;
+        overflow: hidden;
+        padding: 0;
+        position: absolute;
+        width: 1px;
+    }
+
+    table tr {
+        border-bottom: 3px solid #ddd;
+        display: block;
+        margin-bottom: .625em;
+        background-color: #ddd;
+        opacity: 0.2px;
+    }
+
+    table td {
+        border-bottom: 1px solid #ddd;
+        display: block;
+        font-size: 20px;
+        text-align: right;
+        background-color: #ddd;
+        opacity: 0.2px;
+    }
+
+    table td::before {
+        content: attr(data-label);
+        float: left;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+
+}

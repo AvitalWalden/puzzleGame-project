@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400&display=swap');
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    direction: rtl;
+    background-image: url("../images/background.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    margin: 0px;
+}
+
+.nav {
+    width: 100%;
+    position: top;
+    margin: 0px;
+    border: none;
+    display: block;
+    margin-bottom: 0px;
+}
+
+.board {
+
+    border: 1px solid white;
+    margin: 0 auto;
+    gap: 0;
+    border-radius: 5px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    flex-wrap: wrap;
+}
+
+.board img {
+    flex-grow: 1;
+    border: 0px solid white;
+}
+
+.pieces {
+    border: 2px solid white;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-right: auto;
+    margin-left: auto;
+    border-color: rgb(153, 217, 234);
+}
+
+.pieces img {
+    border: 0.2px solid #d8dfde;
+}
+
+.pieces :hover {
+    transform: scale(1.05);
+}
+
+.containerImage {
+    height: 458px;
+    width: 600px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    transition: .2s;
+    margin-right: auto;
+    margin-left: auto;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.eyeHide {
+    margin-bottom: 20px;
+}
+
+.eye,
+.eyeHide {
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0 0 40px rgb(255, 255, 255);
+}
+
+.h2 {
+    font-family: 'Quicksand', sans-serif;
+}
+
+.timer {
+    margin-top: 0px;
+    padding: 2px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: rgb(255, 255, 255);
+    width: 250px;
+    height: 100px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 7px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 25px;
+}
+
+#timerP {
+    text-shadow: 0 0 5px rgb(153, 217, 234);
+    font-weight: bold;
+    margin-top: 0px;
+    padding: 2px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: rgb(255, 255, 255);
+    width: 250px;
+    height: 100px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 7px;
+    font-size: 23px;
+}
+
+.hide {
+    display: none;
+}
+
+.visibleGrid {
+    display: grid;
+}
+
+.visibleFlex {
+    display: flex;
+}
+
+.level1Board {
+    width: 450px;
+    height: 400px;
+}
+
+.level1Board img {
+    width: 140px;
+    height: 133px;
+}
+
+.level1Pieces {
+    grid-template-columns: repeat(auto-fit, minmax(90px, auto));
+    grid-template-rows: repeat(1, 80px);
+    width: 71.4%;
+    height: 5%;
+}
+
+.level1Pieces img {
+    width: 100%;
+    height: 100%;
+}
+
+.level1containerImage {
+    background-image: url("../images/puzzle1/puzzle1.jpg");
+}
+
+.level2Board {
+    width: 450px;
+    height: 400px;
+}
+
+.level2Board img {
+    width: 110px;
+    height: 100px;
+}
+
+.level2Pieces {
+    grid-template-columns: repeat(auto-fit, minmax(100px, auto));
+    grid-template-rows: repeat(2, 80px);
+    width: 63.5%;
+    height: 30%;
+    margin-bottom: 10%;
+}
+
+.level2Pieces img {
+    width: 100%;
+    height: 100%;
+}
+
+
+.level2containerImage {
+    background-image: url("../images/puzzle2/puzzle2.jpg");
+}
+
+.level3Board {
+    width: 450px;
+    height: 400px;
+}
+
+.level3Board img {
+    width: 90px;
+    height: 80px;
+}
+
+.level3Pieces {
+    grid-template-columns: repeat(auto-fit, minmax(80px, auto));
+    grid-template-rows: repeat(2, 80px);
+    width: 71.4%;
+    height: 30%;
+    margin-bottom: 15%;
+}
+
+.level3Pieces img {
+    width: 100%;
+    height: 100%;
+}
+
+.level3containerImage {
+    background-image: url("../images/puzzle3/puzzle3.jpg");
+}

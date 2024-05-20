@@ -1,0 +1,19 @@
+body {
+    background-image: url("../images/winner.png");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.nav {
+    width: 100%;
+    position: top;
+    margin: 0px;
+    border: none;
+    display: block;
+    margin-bottom: 0px;
+}

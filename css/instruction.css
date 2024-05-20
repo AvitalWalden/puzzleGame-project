@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400&display=swap');
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    margin: 0 !important;
+    font-family: 'Quicksand', sans-serif;
+    background-image: url("../images/background.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    text-align: start;
+}
+
+h1 {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 3%;
+    text-shadow: 2px 0 rgb(153, 217, 234);
+}
+
+.text {
+    text-align: start;
+    padding-right: 10%;
+    padding-left: 15%;
+    font-size: 120%;
+    text-shadow: 0 0 5px rgb(153, 217, 234);
+    font-weight: bold;
+}
+
+.instruction {
+    text-align: start;
+    padding-right: 1%;
+    padding-left: 10%;
+    font-size: 180%;
+    text-shadow: 0 0 5px rgb(153, 217, 234);
+    font-weight: bold;
+}
+
+.nav {
+    width: 100%;
+    position: top;
+    margin: 0px;
+    border: none;
+    display: block;
+    margin-bottom: 0px;
+}
+
+@media screen and (max-width: 500px) {
+    .text {
+        padding-right: 20%;
+        padding-left: 20%;
+        font-size: 90%;
+    }
+
+    h1 {
+        font-size: 80%;
+    }
+
+    .instruction {
+        padding-right: 5%;
+        padding-left: 5%;
+        font-size: 200%;
+    }
+}
+
+@media screen and (max-width: 800px) and (min-width: 500px) {
+    .text {
+        padding-right: 20%;
+        padding-left: 20%;
+        font-size: 90%;
+    }
+
+    h1 {
+        font-size: 100%;
+    }
+
+    .instruction {
+        padding-right: 0;
+        padding-left: 0;
+        font-size: 180%;
+    }
+}
